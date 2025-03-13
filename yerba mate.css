@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F8F8F8;
+    color: #333;
+}
+header {
+    background-color: #0E3F18;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.btn {
+    background: black;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-outline {
+    background: transparent;
+    color: black;
+    padding: 10px 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.text {
+    max-width: 500px;
+}
+
+.image img {
+    width: 400px;
+    border-radius: 10px;
+}
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.menu-image img {
+    width: 400px;
+    border-radius: 10px;
+}
+
+.menu-items {
+    background: #F0F5E8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 400px;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-item img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.menu-text h3 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.menu-text span {
+    font-weight: bold;
+}
+
+.menu-text p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+}
